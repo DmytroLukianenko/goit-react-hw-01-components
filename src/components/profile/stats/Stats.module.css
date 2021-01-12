@@ -1,0 +1,25 @@
+.stats {
+  list-style: none;
+  display: flex;
+  background-color: rgb(221, 217, 217);
+  margin-top: 20px;
+}
+.statsItem {
+  width: 134px;
+  border: 1px solid rgb(160, 160, 160, 0.5);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 26px;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  color: grey;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+}

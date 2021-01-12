@@ -1,0 +1,29 @@
+tr {
+  height: 50px;
+  background-color: #a9aaf5;
+  color: #151655;
+}
+
+td {
+  width: calc(100% / 3);
+  text-align: center;
+  font-weight: 700;
+}
+
+td:nth-child(3n + 1) {
+  text-align: start;
+  padding-left: 100px;
+}
+
+tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: #e1d9f5;
+}
+
+tr:hover {
+  background-color: #87dda3;
+  color: #fff;
+}
