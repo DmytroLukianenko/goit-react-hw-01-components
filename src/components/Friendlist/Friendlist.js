@@ -4,8 +4,7 @@ import styles from './Friend.module.css'
 import { FriendListItem } from './FriendListItem';
 
 
-export let FriendList = ({ friends }) => {
-    if (friends.length === 0) return null;
+export const FriendList = ({ friends }) => {
     return (
         <ul className={styles.friendsList}>
             {friends.map(({ avatar, name, id, isOnline }) => {
